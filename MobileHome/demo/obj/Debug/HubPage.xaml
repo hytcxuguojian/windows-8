@@ -1,0 +1,193 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="demo.HubPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:demo"
+    xmlns:data="using:demo.Data"
+    xmlns:common="using:demo.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <CollectionViewSource
+            x:Name="itemsViewSource"
+            Source="{Binding Items}"
+           />
+        <!-- 第 4 部分中显示的适合网格的 310 x 260 像素的项模板-->
+        <DataTemplate x:Key="Standard310x260ItemTemplate">
+            <Grid Height="250" Width="310" Margin="5,10,5,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Height="150">
+                    <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+                </Border>
+                <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                    <TextBlock Text="{Binding Title}" Style="{StaticResource TitleTextBlockStyle}" TextWrapping="NoWrap"/>
+                    <TextBlock Text="{Binding Description}" Style="{StaticResource BodyTextBlockStyle}" MaxHeight="60" />
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="GroupItemsTemplate">
+            <Grid Margin="2">
+                <StackPanel Orientation="Horizontal" Background="#ffffff">
+                    <Rectangle Width="200" Height="150"></Rectangle>
+                    <Image Source="{Binding Items[0].TileImagePath}" Width="150" Height="150" Stretch="UniformToFill" />
+                </StackPanel>
+                <TextBlock Text="{Binding Title}" HorizontalAlignment="Left" Margin="20 55 10 55" FontSize="40" Foreground="#333" FontWeight="SemiBold" Style="{StaticResource SubheaderTextBlockStyle}" />
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+
+    <!--
+    此网格充当页的根面板。
+  -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <SemanticZoom x:Name="Zoom" Padding="0">
+            <SemanticZoom.ZoomedInView>
+                <Hub x:ConnectionId='2' x:Name="Hub"                                            >
+                    <Hub.Header>
+                        <!-- 后退按钮和页标题-->
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button  x:Name="backButton" Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        Margin="-1,-1,39,0" 
+                        VerticalAlignment="Top"
+                        Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+                            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" />
+                        </Grid>
+                    </Hub.Header>
+                    <HubSection Width="780" Margin="0,0,80,0" VerticalContentAlignment="Bottom">
+                        <HubSection.Background>
+                            <ImageBrush ImageSource="Images/Hero.png" Stretch="UniformToFill" />
+                        </HubSection.Background>
+                        <DataTemplate>
+                            <TextBlock Text="Salad Week" Style="{StaticResource HeaderTextBlockStyle}" />
+                        </DataTemplate>
+                    </HubSection>
+                    <HubSection Width="500" x:Uid="Section1Header" Header="最热款手机" DataContext="{Binding Section1Item}" d:DataContext="{Binding Groups[0].Items[0], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImagePath}" Stretch="Fill" Width="420" Height="280"/>
+                                <TextBlock Style="{StaticResource SubheaderTextBlockStyle}" Grid.Row="1" Margin="0,10,0,0" TextWrapping="Wrap" Text="{Binding Title}"/>
+                                <TextBlock Style="{StaticResource TitleTextBlockStyle}" Grid.Row="2" Margin="0,10,0,0" Text="{Binding Description}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </HubSection>
+                    <HubSection x:Uid="Section2Header" Header="按品牌分类" DataContext="{Binding Section2Items}" d:DataContext="{Binding Groups, Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}">
+                        <DataTemplate>
+                            <ListView x:ConnectionId='5'
+                        x:Name="groupListView"
+                        AutomationProperties.AutomationId="GroupListView"
+                        AutomationProperties.Name="Groups"
+                        TabIndex="1"
+                        Grid.Row="1"
+                        Margin="-9,-6,0,0"
+                        ItemsSource="{Binding}"
+                        ItemTemplate="{StaticResource GroupItemsTemplate}"
+                        SelectionMode="None"
+                        IsSwipeEnabled="false"
+                        IsItemClickEnabled="True"
+                                                       >
+                            </ListView>
+                        </DataTemplate>
+                    </HubSection>
+                    <HubSection IsHeaderInteractive="False" DataContext="{Binding Section3Items}" d:DataContext="{Binding Groups[3], Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}" x:Uid="Section3Header" Header="Top Rated" Padding="40,40,40,32">
+                        <DataTemplate>
+                            <GridView x:ConnectionId='4'
+                        x:Name="itemGridView"
+                        ItemsSource="{Binding Items}"
+                        Margin="-9,-14,0,0"
+                        AutomationProperties.AutomationId="ItemGridView"
+                        AutomationProperties.Name="Items In Group"
+                        ItemTemplate="{StaticResource Standard310x260ItemTemplate}"
+                        SelectionMode="None"
+                        IsSwipeEnabled="false"
+                        IsItemClickEnabled="True"
+                                                      >
+                            </GridView>
+                        </DataTemplate>
+                    </HubSection>
+                    <HubSection x:Uid="Sectionnews" Header="今日盘点">
+                        <DataTemplate>
+                            <GridView x:ConnectionId='3' 
+                                Height="600"
+                                x:Name="itemGridView"
+                                AutomationProperties.AutomationId="ItemsGridView"
+                                AutomationProperties.Name="Items"
+                                TabIndex="1"
+                                Grid.RowSpan="3"
+                                ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
+                                SelectionMode="None"
+                                IsSwipeEnabled="false"
+                                IsItemClickEnabled="True"
+                                                                  >
+                                <GridView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid HorizontalAlignment="Left" Width="280" Height="210" Margin="10">
+                                            <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}">
+                                                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+                                            </Border>
+                                            <StackPanel VerticalAlignment="Bottom" Background="{ThemeResource ListViewItemOverlayBackgroundThemeBrush}">
+                                                <TextBlock Text="{Binding Title}" Foreground="{ThemeResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource BaseTextBlockStyle}" Height="60" Margin="15,0,15,0" FontWeight="SemiBold"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </DataTemplate>
+                                </GridView.ItemTemplate>
+                            </GridView>     
+                        </DataTemplate>
+                    </HubSection>
+                    
+                </Hub>
+            </SemanticZoom.ZoomedInView>
+            <SemanticZoom.ZoomedOutView>
+                <GridView VerticalAlignment="Top" Margin="80,100,0,0" SelectionMode="None" ItemsSource="{Binding}" DataContext="{Binding ZoomedOutList}">
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalAlignment="Left" MinWidth="290" MinHeight="140">
+                                <Grid.Background>
+                                    <SolidColorBrush Color="Gray" />
+                                </Grid.Background>
+                                <StackPanel VerticalAlignment="Bottom" Margin="20">
+                                    <TextBlock HorizontalAlignment="Left" VerticalAlignment="Bottom" Text="{Binding}" FontWeight="Bold" FontSize="22" TextWrapping="WrapWholeWords" />
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </SemanticZoom.ZoomedOutView>
+        </SemanticZoom>
+        <SearchBox x:ConnectionId='1' x:Name="Search"
+                                                  
+            Width="300" Height="35" Margin="10" 
+            HorizontalAlignment="Right" VerticalAlignment="Top"
+            FocusOnKeyboardInput="True"
+            PlaceholderText="搜索手机"
+                                                              
+                                                                  
+                   />
+    </Grid>
+</Page>
+

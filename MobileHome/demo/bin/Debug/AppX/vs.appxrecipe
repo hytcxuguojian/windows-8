@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STUDENT</Machine>
+    <WindowsUser>just</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6edaf194-e7a9-43a5-8923-59feb74ac630</PackageIdentityName>
+    <IntermediateOutputPath>F:\MobileHome\demo\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>893FC88FC09266AD3ED3FCDEF964BE6013C4815AC8CB4A940AA1A41556D911F3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6edaf194-e7a9-43a5-8923-59feb74ac630_1.0.0.0_neutral__scs3de4092tee</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6edaf194-e7a9-43a5-8923-59feb74ac630_scs3de4092tee!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6edaf194-e7a9-43a5-8923-59feb74ac630</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=just</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\MobileHome\demo\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-09-29T07:35:25.049</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\demo.exe">
+      <PackagePath>demo.exe</PackagePath>
+      <Modified>2014-09-29T07:35:24.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Bread.jpg">
+      <PackagePath>Images\Bread.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_1_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_1_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_2_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_2_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_3_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_3_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_4_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_4_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_5_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_5_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_6_150_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\Chinese_6_600_C.jpg">
+      <PackagePath>Images\Chinese\Chinese_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_1_150_C.jpg">
+      <PackagePath>Images\French\French_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_1_600_C.jpg">
+      <PackagePath>Images\French\French_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_2_150_C.jpg">
+      <PackagePath>Images\French\French_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_2_310_C.jpg">
+      <PackagePath>Images\French\French_2_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_2_600_C.jpg">
+      <PackagePath>Images\French\French_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_3_150_C.jpg">
+      <PackagePath>Images\French\French_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_3_600_C.jpg">
+      <PackagePath>Images\French\French_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_4_150_C.jpg">
+      <PackagePath>Images\French\French_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_4_600_C.jpg">
+      <PackagePath>Images\French\French_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_5_150_C.jpg">
+      <PackagePath>Images\French\French_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_5_600_C.jpg">
+      <PackagePath>Images\French\French_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_6_150_C.jpg">
+      <PackagePath>Images\French\French_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\French_6_600_C.jpg">
+      <PackagePath>Images\French\French_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_1_150_C.jpg">
+      <PackagePath>Images\German\German_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_1_600_C.jpg">
+      <PackagePath>Images\German\German_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_2_150_C.jpg">
+      <PackagePath>Images\German\German_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_2_600_C.jpg">
+      <PackagePath>Images\German\German_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_3_150_C.jpg">
+      <PackagePath>Images\German\German_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_3_600_C.jpg">
+      <PackagePath>Images\German\German_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_4_150_C.jpg">
+      <PackagePath>Images\German\German_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_4_310_C.jpg">
+      <PackagePath>Images\German\German_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_4_600_C.jpg">
+      <PackagePath>Images\German\German_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_5_150_C.jpg">
+      <PackagePath>Images\German\German_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_5_600_C.jpg">
+      <PackagePath>Images\German\German_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_6_150_C.jpg">
+      <PackagePath>Images\German\German_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\German_6_600_C.jpg">
+      <PackagePath>Images\German\German_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Grain.jpg">
+      <PackagePath>Images\Grain.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\huawei-logo.jpg">
+      <PackagePath>Images\huawei\huawei-logo.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\huawei_com.jpg">
+      <PackagePath>Images\huawei\huawei_com.jpg</PackagePath>
+      <Modified>2014-09-28T07:29:40.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\华为Ascend P7%28移动TD-LTE版%29.jpg">
+      <PackagePath>Images\huawei\华为Ascend P7%28移动TD-LTE版%29.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\华为H30-T00.jpg">
+      <PackagePath>Images\huawei\华为H30-T00.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\华为Mate 7.jpg">
+      <PackagePath>Images\huawei\华为Mate 7.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\华为荣耀3X%28G750-T00%29.jpg">
+      <PackagePath>Images\huawei\华为荣耀3X%28G750-T00%29.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\华为荣耀6%2816GB 移动TD-LTE版%29.jpg">
+      <PackagePath>Images\huawei\华为荣耀6%2816GB 移动TD-LTE版%29.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\huawei\华为荣耀X1%28双4G-TD-LTE版%29.jpg">
+      <PackagePath>Images\huawei\华为荣耀X1%28双4G-TD-LTE版%29.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_1_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_1_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_2_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_2_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_3_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_3_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_4_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_4_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_5_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_5_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_6_150_C.jpg">
+      <PackagePath>Images\Indian\Indian_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\Indian_6_600_C.jpg">
+      <PackagePath>Images\Indian\Indian_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\31252.jpg">
+      <PackagePath>Images\iphone\31252.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\apple_com.jpg">
+      <PackagePath>Images\iphone\apple_com.jpg</PackagePath>
+      <Modified>2014-09-27T11:58:04.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\iphone4s.jpg">
+      <PackagePath>Images\iphone\iphone4s.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\iphone5.jpg">
+      <PackagePath>Images\iphone\iphone5.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\iphone6.jpg">
+      <PackagePath>Images\iphone\iphone6.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\iphone_logo.jpg">
+      <PackagePath>Images\iphone\iphone_logo.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\iphone5c.jpg">
+      <PackagePath>Images\iphone\iphone5c.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\iphone5s.jpg">
+      <PackagePath>Images\iphone\iphone5s.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\iphone\logo.jpg">
+      <PackagePath>Images\iphone\logo.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_1_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_1_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_2_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_2_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_3_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_3_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_4_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_4_310_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_4_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_5_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_5_310_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_5_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_6_150_C.jpg">
+      <PackagePath>Images\Italian\Italian_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\Italian_6_600_C.jpg">
+      <PackagePath>Images\Italian\Italian_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_1_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_1_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_1_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_1_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_2_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_2_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_2_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_2_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_3_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_3_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_3_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_3_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_4_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_4_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_4_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_4_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_5_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_5_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_5_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_5_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_6_150_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_6_150_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\Mexican_6_600_C.jpg">
+      <PackagePath>Images\Mexican\Mexican_6_600_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Peppers.jpg">
+      <PackagePath>Images\Peppers.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\samsung-com.jpg">
+      <PackagePath>Images\samsung\samsung-com.jpg</PackagePath>
+      <Modified>2014-09-28T03:11:49.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\samsung-galaxy-note-edge%2832G%29.jpg">
+      <PackagePath>Images\samsung\samsung-galaxy-note-edge%2832G%29.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\samsung-logo.jpg">
+      <PackagePath>Images\samsung\samsung-logo.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\samsung_C101_Galaxy_S4_Zoom.jpg">
+      <PackagePath>Images\samsung\samsung_C101_Galaxy_S4_Zoom.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\samsung_GALAXY_Note4.jpg">
+      <PackagePath>Images\samsung\samsung_GALAXY_Note4.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\samsung_galaxy_s5_g9008w.jpg">
+      <PackagePath>Images\samsung\samsung_galaxy_s5_g9008w.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\三星GALAXY GRAND 2.jpg">
+      <PackagePath>Images\samsung\三星GALAXY GRAND 2.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\samsung\三星GALAXY S4%28I9500%29.jpg">
+      <PackagePath>Images\samsung\三星GALAXY S4%28I9500%29.jpg</PackagePath>
+      <Modified>2014-09-27T11:10:24.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Tiles\Chinese_6_310_C.jpg">
+      <PackagePath>Images\Tiles\Chinese_6_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Tiles\French_2_310_C.jpg">
+      <PackagePath>Images\Tiles\French_2_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Tiles\German_4_310_C.jpg">
+      <PackagePath>Images\Tiles\German_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Tiles\Italian_4_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_4_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Tiles\Italian_5_310_C.jpg">
+      <PackagePath>Images\Tiles\Italian_5_310_C.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Vegetables.jpg">
+      <PackagePath>Images\Vegetables.jpg</PackagePath>
+      <Modified>2014-09-24T07:00:37.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\chinese_group.png">
+      <PackagePath>Images\Chinese\chinese_group.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\chinese_group_detail.png">
+      <PackagePath>Images\Chinese\chinese_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Chinese\chinese_group_header.png">
+      <PackagePath>Images\Chinese\chinese_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\french_group.png">
+      <PackagePath>Images\French\french_group.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\french_group_detail.png">
+      <PackagePath>Images\French\french_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\French\french_group_header.png">
+      <PackagePath>Images\French\french_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\german_group.png">
+      <PackagePath>Images\German\german_group.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\german_group_detail.png">
+      <PackagePath>Images\German\german_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\German\german_group_header.png">
+      <PackagePath>Images\German\german_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Hero.png">
+      <PackagePath>Images\Hero.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\indian_group.png">
+      <PackagePath>Images\Indian\indian_group.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\indian_group_detail.png">
+      <PackagePath>Images\Indian\indian_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Indian\indian_group_header.png">
+      <PackagePath>Images\Indian\indian_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\italian_group.png">
+      <PackagePath>Images\Italian\italian_group.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\italian_group_detail.png">
+      <PackagePath>Images\Italian\italian_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Italian\italian_group_header.png">
+      <PackagePath>Images\Italian\italian_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\mexican_group.png">
+      <PackagePath>Images\Mexican\mexican_group.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\mexican_group_detail.png">
+      <PackagePath>Images\Mexican\mexican_group_detail.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Images\Mexican\mexican_group_header.png">
+      <PackagePath>Images\Mexican\mexican_group_header.png</PackagePath>
+      <Modified>2014-09-24T07:00:37.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-30T16:44:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-30T16:44:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-30T16:44:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-30T16:44:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-30T16:44:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-09-28T10:24:23.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-27T12:45:29.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2014-09-29T07:35:24.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\ItemsDetailPage.xbf">
+      <PackagePath>ItemsDetailPage.xbf</PackagePath>
+      <Modified>2014-09-29T06:12:50.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\SearchResultsPage.xbf">
+      <PackagePath>SearchResultsPage.xbf</PackagePath>
+      <Modified>2014-09-29T07:35:24.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2014-09-28T00:47:53.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2014-09-28T00:47:53.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\demo.xr.xml">
+      <PackagePath>demo.xr.xml</PackagePath>
+      <Modified>2014-09-29T07:35:24.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\MobileHome\demo\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-09-29T07:35:24.914</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
